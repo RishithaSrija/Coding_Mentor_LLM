@@ -6,3 +6,4 @@ accelerate
 sentencepiece
 pydantic
 numpy
+safetensors

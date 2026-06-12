@@ -36,7 +36,7 @@ def ask_ai(data: Question):
             "Content-Type": "application/json",
         },
         json={
-            "model": "deepseek/deepseek-r1-0528-qwen3-8b:free",
+            "model": "deepseek/deepseek-chat-v3-0324:free",
             "messages": [
                 {
                     "role": "system",

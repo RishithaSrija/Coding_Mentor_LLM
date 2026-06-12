@@ -53,6 +53,13 @@ def ask_ai(data: Question):
     )
 
     result = response.json()
+    # Debugging
+    print(result)
+
+    if "choices" not in result:
+        return {
+            "error": result
+        }
     return {
         "response": result["choices"][0]["message"]["content"]
     }

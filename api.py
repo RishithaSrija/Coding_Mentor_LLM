@@ -36,7 +36,7 @@ def ask_ai(data: Question):
             "Content-Type": "application/json",
         },
         json={
-            "model": "meta-llama/llama-3-8b-instruct",
+            "model": "meta-llama/llama-3.1-8b-instruct",
             "messages": [
                 {
                     "role": "system",
